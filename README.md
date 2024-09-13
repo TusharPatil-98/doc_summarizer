@@ -14,13 +14,13 @@ The **Document Summarizer** is a Python-based tool that allows you to generate c
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/TusharPatil-98/document-summarizer.git
+   git clone https://github.com/TusharPatil-98/doc_summarizer.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd document-summarizer
+   cd doc_summarizer
    ```
 
 3. Install the required Python packages:

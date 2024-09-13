@@ -14,8 +14,8 @@ jobs:
       with:
         python-version: 3.11
     - name: Setup Environment
-      run: |
-        export HF_TOKEN = '${{ secrets.HF_TOKEN }}'
+      env:
+        HF_TOKEN: ${{ secrets.HF_TOKEN }}
     - name: Install dependencies
       run: |
         make install

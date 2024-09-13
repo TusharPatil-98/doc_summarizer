@@ -6,6 +6,6 @@ test:
 	python -m pytest -vv --cov=tests tests
 
 run:
-	python main.py
+	python main.py --question "What is the topic this paper highlights?"
 
 all: install test run

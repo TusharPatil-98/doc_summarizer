@@ -4,9 +4,7 @@ from helper.agent import Agent
 from helper.document_storage import DocumentStorage
 
 
-
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     cli_mode = False
 
     if len(sys.argv) >= 3 and sys.argv[1] == "--question":
@@ -18,7 +16,7 @@ if __name__ == '__main__':
         cli_mode = True
 
     doc_storage = DocumentStorage()
-    output_dir = 'data'
+    output_dir = "data"
     doc_storage.execute(list(Path(output_dir).glob("**/*")))
     doc_store = doc_storage.get_document_store()
 
@@ -27,10 +25,9 @@ if __name__ == '__main__':
         print(f"ChatBot: \n{agent.execute(question)}")
         if cli_mode:
             question = input("User: ")
-            if question == ':q':
-                print('ChatBot: Thank you & Have a nice day!')
+            if question == ":q":
+                print("ChatBot: Thank you & Have a nice day!")
                 break
-            
+
         else:
             break
-

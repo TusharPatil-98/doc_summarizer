@@ -1,11 +1,11 @@
 [![ML Application test with Github Actions](https://github.com/TusharPatil-98/doc_summarizer/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/TusharPatil-98/doc_summarizer/actions/workflows/pythonapp.yml)
-# Document Summarizer
+# Document Summarizer with Haystack
 
 The **Document Summarizer** is a Python-based tool that allows you to generate concise summaries from longer texts or documents. Whether you're dealing with research papers, articles, or even lengthy emails, this tool can help you extract the essential information efficiently.
 
 ## Features
 
-- **Text Summarization**: Given a document, the summarizer extracts key sentences or phrases to create a shorter summary.
+- **Text Summarization**: Given a document, the summarizer extracts key sentences or phrases to create a shorter summary using Haystack.
 - **Interactive Mode**: Run the summarizer in interactive mode, where you can input questions or prompts to generate relevant summaries.
 - **Easy Setup**: Just follow the steps below to get started!
 

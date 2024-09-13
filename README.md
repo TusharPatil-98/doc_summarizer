@@ -23,10 +23,10 @@ The **Document Summarizer** is a Python-based tool that allows you to generate c
    cd doc_summarizer
    ```
 
-3. Install the required Python packages:
+3. Install the required Python packages and run project:
 
    ```bash
-   pip install -r requirements.txt
+   make all
    ```
 
 ## Usage
